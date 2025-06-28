@@ -63,7 +63,7 @@ def scan_username(username):
             print(f"{Fore.LIGHTBLACK_EX}[-] {site}: Not found")
 
 if __name__ == "__main__":
-    user = input(Fore.CYAN + "Enter username to scan: ").strip()
+    user = input(Fore.CYAN + " 🦈 Enter username to scan: ").strip()
     if user:
         scan_username(user)
     else:
